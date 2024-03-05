@@ -2,9 +2,8 @@ import { WDOTInitialization } from 'dop-website-sdk/src'
 
 export function useTracking() {
   WDOTInitialization.setConfig({
-    serviceNumber: 20502,
-    dotAccessToken:
-      'CX24QowM3v0ju5qEU8I/hiqrS29hAlGEJpBXQx09PHFBQ3xlqyERakQJKXLX/9/cHnmjuPOxQo83DsfeBgWZ1w==',
+    serviceNumber: 0000, // 서비스번호를 입력해주세요
+    dotAccessToken: 'asd', // 서비스관리 메뉴의 토큰을 입력해주세요
     combackUserLimitDays: 14,
     dotEndPoint: 'https://trk.analytics.wisetracker.co.kr/web/v1/dataRcv.do',
     adClkEndPoint: 'https://trk.analytics.wisetracker.co.kr/ldsys/v1/clickDataRcv.do',
