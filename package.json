@@ -11,7 +11,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "dop-website-sdk": "^1.0.25",
+    "dop-website-sdk": "^1.0.27",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
